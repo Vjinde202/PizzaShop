@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+.get
+{
+    position:absolute;
+    top:60%;
+    left:40%;
+    transform:translate(-60%, -40%);
+
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+  background-image: "/assets/home.png";
+    background-size: cover;
+}
+.insert-form
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+}
+.insert-form p{
+  
+    font-weight: bold;
+}
+.insert-form input{
+    font-size:16px;
+    width: 100px;
+  
+    border: radius 5px;
+    outline:none;
+}
+.insert-form button{
+    font-weight:bold;
+
+}
+.insert-form button:hover{
+    color:green;
+}

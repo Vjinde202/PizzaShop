@@ -1,0 +1,26 @@
+
+<body>
+  <div class="insert-form">
+   
+    <form (ngSubmit) = "onSubmit()">  
+                <p>Pizza Id </p>
+                <input type="text"  id="pid" name="pid"
+                [(ngModel)] = "items.pizzaId">
+           
+                <p>Pizza Name<p>
+                <input type="text"  id="pname" name="pname"
+                [(ngModel)] = "items.pizzaName">
+            
+           
+                <p>Pizza Amount</p>
+                <input type="text"  id="pamount" name="pamount"
+                [(ngModel)] = "items.pizzaAmount"><br>
+       
+            <button class="btn btn-primary" type="submit">Insert</button>
+          
+        
+    </form>
+</div>
+</body>
+
+

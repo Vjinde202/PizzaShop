@@ -1,0 +1,27 @@
+<div class="get">
+
+<table class="table table-stripped" border="1">
+    <thead class="thread-light">
+        <tr>
+            <th>PizzaId</th>
+            <th>PizzaName</th>
+            <th>PizzaAmount</th>
+        </tr>
+    </thead>
+    <tr *ngFor = "let item of items"><!--| paginate:
+    {id:'abc',
+     itemsPerPage:7,
+     currentPage:page,
+     totalItems:totalRecords}">-->
+        <td>{{item.pizzaId}}</td>
+        <td>{{item.pizzaName}}</td>
+        <td>{{item.pizzaAmount}}</td>
+    </tr>
+
+</table>
+</div>
+<!--<div class="col-mod-10 offset-md-4">
+    <pagination-controls id="abc" maxSize="5" directionLink="true"
+    (pageChange)="page=$event"></pagination-controls>
+</div>
+-->

@@ -1,0 +1,17 @@
+<div>
+    <form style=" position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%); border-left-color:darkblue;" (ngSubmit)="doDeleteOnServer()">
+    <div>
+        <label style="font-weight:bold">PizzaId</label>
+        <input type="text" class="form-control" id="pid"  name="pid"
+          value="{{id}}" disable="true"/>
+
+    </div><br>
+
+    <div>
+        &nbsp;&nbsp;<button class="btn btn-success" type="submit">Delete</button>
+    </div>
+</form>
+</div>
